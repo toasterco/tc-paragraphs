@@ -1,0 +1,173 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`tc-paragraphs`
+tc-paragraphs is an element for inserting symantic paragraphs from a string 
+which contains \n as line breaks. This is useful for inserting paragraph tags 
+from a chunk of text from a json response.
+
+### Sample usage
+
+    <tc-paragraphs text="first line\nsecond line" paragraph-classnames="class-test"></tc-paragraphs>
+
+    Exports:
+
+    <p class="class-test">first line</p>
+    <p class="class-test">second line</p>
+
+
+    
+    <tc-paragraphs text="first line\n\nsecond line"></tc-paragraphs>
+
+    Exports:
+
+    <p>first line</p>
+    <span class="spacer"></span>
+    <p>second line</p>
+
+
+    <tc-paragraphs text="first line\nsecond line" tag-name="h1"></tc-paragraphs>
+
+    Exports:
+
+    <h1>first line</h1>
+    <h1>second line</h1>
+
+
+### Styling
+
+`<tc-paragraphs>` provides the following custom properties and mixins for styling:
+
+Custom property | Description | Default
+----------------|-------------|----------
+`--tc-paragraph` | Mixin applied to each paragraph | `{}`
+`--tc-paragraph-spacer` | Mixin applied to the spacer | `{}`
+
+@demo demo/index.html 
+-->
+
+<dom-module id="tc-paragraphs">
+  <template>
+
+    <style>
+      :host {
+        display:block;
+      }
+
+      p {
+        display:block;
+
+        @apply(--tc-paragraph);
+      }
+
+      .spacer {
+        display:block;
+
+        margin-bottom:1em;
+
+        @apply(--tc-paragraph-spacer);
+      }
+    </style>    
+
+    <div id="paragraphs"></div>
+      
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'tc-paragraphs',
+
+      properties: {
+
+        /** The string to convert into paragraphs. */
+        text: String,
+
+        /** The characters to search for when spliting the string. */
+        lineBreakKeyword: {
+          type: String,
+          value: '\n'
+        },
+
+        /** The to render for each paragraph, useful if multiple headings are 
+            needed. */
+        tagName: {
+          type: String,
+          value: 'p'
+        },
+
+        /** The computed paragraphs that will be rendered. */
+        paragraphs: {
+          type: Array,
+          computed: '_computeParagraphs(text, lineBreakKeyword)',
+          readOnly: true
+        },
+
+        /** The classes to be appended to each paragraph tag. */
+        paragraphClassnames: {
+          type: String,
+          value: ''
+        }
+      },
+
+      observers: [
+        '_renderParagraphs(paragraphs.*, tagName, paragraphClassnames)'
+      ],
+
+      /**
+       * Create a document fragment and render to the element.
+       * 
+       * @param {Array} paragraphs The strings to render.
+       */
+      _renderParagraphs: function(paragraphs, tagName, classNames) {
+        var fragment = document.createDocumentFragment();
+
+        paragraphs.value.forEach(function(sentence) {
+          var element;
+          if (this._needSpacer(sentence)) {
+            element = document.createElement('span');
+            element.className = 'spacer';
+          } else {
+            element = document.createElement(tagName);
+            element.className = classNames || '';
+            element.textContent = sentence;
+          }
+
+          Polymer.dom(fragment).appendChild(element);
+        }.bind(this));
+
+
+        this.$.paragraphs.innerHTML = '';
+        Polymer.dom(this.$.paragraphs).appendChild(fragment);
+      },
+
+      /**
+       * Split text into an array of strings.
+       * 
+       * @param {String} text The text to split.
+       * @param {String} keyword The keyword to split the string.
+       * @return {Array} An array of strings.
+       */
+      _computeParagraphs: function(text, keyword) {
+        // Polymer will escape \n with a backslash in front of it when inserting
+        // strings directly into the attribute. This will cause the method to 
+        // fail. To enforce universal behavior, search for \\n and replace with
+        // \n in both the keywords and text.
+        keyword = keyword.replace(/\\n/g, '\n');
+        text = text.replace(/\\n/g, '\n');
+        return text.split(keyword);
+      },
+
+      /**
+       * If the paragraph does not have any copy in it, create a spacer.
+       * 
+       * @param  {String} paragraph The paragraph to check.
+       * @return {Boolean} Whether or not the paragraph is empty or not.
+       */
+      _needSpacer: function(paragraph) {
+        return paragraph.length === 0 || 
+            paragraph.length === 1 && paragraph.charAt(0) === ' ';
+      }
+    });
+  </script>
+</dom-module>

@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>tc-paragraphs test</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="../../web-component-tester/browser.js"></script>
+
+    <link rel="import" href="../tc-paragraphs.html">
+
+    <style is="custom-style">
+      :root {
+        --tc-paragraph: {
+          color: #00ff00;
+        }
+
+        --tc-paragraph-spacer: {
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <test-fixture id="basic">
+      <template>
+        <tc-paragraphs></tc-paragraphs>
+      </template>
+    </test-fixture>
+
+    <test-fixture id="full">
+      <template>
+        <tc-paragraphs text="something\nsomethingelse\nlast item" paragraph-classnames="class-test"></tc-paragraphs>
+      </template>
+    </test-fixture>
+
+    
+    <test-fixture id="styling">
+      <template>
+        <tc-paragraphs text="something\n\nlast item"></tc-paragraphs>
+      </template>
+    </test-fixture>
+
+
+    <script>
+      suite('tc-paragraphs', function() {
+
+        test('instantiating the element works', function() {
+          var element = fixture('basic');
+          assert.equal(element.is, 'tc-paragraphs');
+        });
+
+        test('_needSpacer should detect whether a spacer is needed', function() {
+          var element = fixture('basic');
+
+          console.log(element._needSpacer(' '));
+
+          assert.isTrue(element._needSpacer(''));
+          assert.isTrue(element._needSpacer(' '));
+          assert.isFalse(element._needSpacer('f'));
+        });
+
+        test('_computeParagraphs should return an array of strings, split by the keyword', function() {
+          var element = fixture('basic');
+
+          //_computeParagraphs: function(text, keyword) {
+          var paragraphs = element._computeParagraphs('something\nsomething', '\n');
+          assert.isTrue(Array.isArray(paragraphs));
+          assert.equal(paragraphs.length, 2);
+
+          paragraphs = element._computeParagraphs('something\nsomething', '<br/>');
+          assert.isTrue(Array.isArray(paragraphs));
+          assert.equal(paragraphs.length, 1);
+
+          paragraphs = element._computeParagraphs('something', '<br/>');
+          assert.isTrue(Array.isArray(paragraphs));
+          assert.equal(paragraphs.length, 1);
+        });
+
+        test('tc-paragraphs should render paragraphs to component', function() {
+          var element = fixture('full');
+
+          var templateElement = element.$.paragraphs;
+          var childNodes = templateElement.childNodes;
+
+          console.log(templateElement);
+          console.log(templateElement.childNodes);
+
+          assert.equal(childNodes.length, 3);
+          assert.equal(childNodes[0].tagName.toLowerCase(), 'p');
+          assert.equal(childNodes[0].innerHTML, 'something');
+          assert.isTrue(childNodes[0].classList.contains('class-test'));
+
+        });
+
+        test('Second node should be a spacer', function() {
+          var element = fixture('full');
+
+          element.text = 'something\n\ngoodbye';
+          element.lineBreakKeyword = '\n';
+          var templateElement = element.$.paragraphs;
+          var childNodes = templateElement.childNodes;
+
+
+          console.log(childNodes);
+
+          assert.equal(childNodes.length, 3);
+          assert.equal(childNodes[1].tagName.toLowerCase(), 'span');
+          assert.isTrue(childNodes[1].classList.contains('spacer'));
+
+        });
+
+        test('tc-paragraphs should react to variable changes', function() {
+          var element = fixture('full');
+
+          element.text = 'hello(spacer)goodbye';
+          element.lineBreakKeyword = '(spacer)';
+          element.tagName = 'h1';
+
+          var templateElement = element.$.paragraphs;
+          var childNodes = templateElement.childNodes;
+
+          assert.equal(childNodes.length, 2);
+          assert.equal(childNodes[0].tagName.toLowerCase(), 'h1');
+          assert.equal(childNodes[0].innerHTML, 'hello');
+        });
+
+        test('CSS mixins should be applied', function() {
+          var app = fixture('styling');
+
+          var childNodes = app.$.paragraphs.childNodes;
+
+          var p = childNodes[0];
+          var spacer = childNodes[1];
+
+          var color = window.getComputedStyle(p, null)
+              .getPropertyValue('color');
+          var margin = window.getComputedStyle(spacer, null)
+              .getPropertyValue('margin-bottom');
+
+          assert.equal(color.toLowerCase(), 'rgb(0, 255, 0)');
+          assert.equal(margin.toLowerCase(), '20px');
+        });
+
+      });
+    </script>
+  </body>
+</html>
