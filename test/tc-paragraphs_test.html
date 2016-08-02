@@ -55,8 +55,6 @@
         test('_needSpacer should detect whether a spacer is needed', function() {
           var element = fixture('basic');
 
-          console.log(element._needSpacer(' '));
-
           assert.isTrue(element._needSpacer(''));
           assert.isTrue(element._needSpacer(' '));
           assert.isFalse(element._needSpacer('f'));
@@ -85,9 +83,6 @@
           var templateElement = element.$.paragraphs;
           var childNodes = templateElement.childNodes;
 
-          console.log(templateElement);
-          console.log(templateElement.childNodes);
-
           assert.equal(childNodes.length, 3);
           assert.equal(childNodes[0].tagName.toLowerCase(), 'p');
           assert.equal(childNodes[0].innerHTML, 'something');
@@ -102,9 +97,6 @@
           element.lineBreakKeyword = '\n';
           var templateElement = element.$.paragraphs;
           var childNodes = templateElement.childNodes;
-
-
-          console.log(childNodes);
 
           assert.equal(childNodes.length, 3);
           assert.equal(childNodes[1].tagName.toLowerCase(), 'span');
