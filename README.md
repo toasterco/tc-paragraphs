@@ -1,6 +1,47 @@
-# \<tc-paragraphs\>
+# <tc-paragraphs\>
 
-tc-paragraphs is an element for inserting symantic paragraphs from a string which contains \n as line breaks.
+`tc-paragraphs`
+tc-paragraphs is an element for inserting symantic paragraphs from a string 
+which contains \n as line breaks. This is useful for inserting paragraph tags 
+from a chunk of text from a json response.
+
+### Sample usage
+
+    <tc-paragraphs text="first line\nsecond line" paragraph-classnames="class-test"></tc-paragraphs>
+
+    Exports:
+
+    <p class="class-test">first line</p>
+    <p class="class-test">second line</p>
+
+
+    
+    <tc-paragraphs text="first line\n\nsecond line"></tc-paragraphs>
+
+    Exports:
+
+    <p>first line</p>
+    <span class="spacer"></span>
+    <p>second line</p>
+
+
+    <tc-paragraphs text="first line\nsecond line" tag-name="h1"></tc-paragraphs>
+
+    Exports:
+
+    <h1>first line</h1>
+    <h1>second line</h1>
+
+
+### Styling
+
+`<tc-paragraphs>` provides the following custom properties and mixins for styling:
+
+Custom property | Description | Default
+----------------|-------------|----------
+`--tc-paragraph` | Mixin applied to each paragraph | `{}`
+`--tc-paragraph-spacer` | Mixin applied to the spacer | `{}`
+
 
 ## Install the Polymer-CLI
 
