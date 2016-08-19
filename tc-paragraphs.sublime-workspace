@@ -1,0 +1,1190 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Google",
+				"GoogleAnalyticsBehavior"
+			],
+			[
+				"teml",
+				"templateElement〔variable〕"
+			],
+			[
+				"paragrap",
+				"paragraphClassnames"
+			],
+			[
+				"jsonR",
+				"jsonPrefix"
+			],
+			[
+				"Local",
+				"LocalizeBehaviorImpl"
+			],
+			[
+				"Tc",
+				"TCBehaviors"
+			],
+			[
+				"Ap",
+				"ApiParser"
+			],
+			[
+				"TC",
+				"TCBehaviors"
+			],
+			[
+				"image",
+				"image_2x"
+			],
+			[
+				"images",
+				"imagesLossless〔variable〕"
+			],
+			[
+				"generatr",
+				"generators〔variable〕"
+			],
+			[
+				"categ",
+				"category_id"
+			],
+			[
+				"categor",
+				"$category_id〔variable〕"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"categories-pa",
+				"categories-padding-d"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"nav",
+				"navigation__list__item"
+			],
+			[
+				"navigat",
+				"navigation__list__item"
+			],
+			[
+				"clie",
+				"client_id〔variable〕"
+			],
+			[
+				"css",
+				"cssPath〔argument〕"
+			],
+			[
+				"templat",
+				"templatePath〔argument〕"
+			],
+			[
+				"render",
+				"renderHtml〔class〕"
+			],
+			[
+				"crawlerData",
+				"crawlerDataFile_"
+			],
+			[
+				"speed",
+				"speedTestResults_〔variable〕"
+			],
+			[
+				"crawl",
+				"crawlerDataFile〔variable〕"
+			],
+			[
+				"return",
+				"returnLogFile"
+			],
+			[
+				"retu",
+				"returnLogFile"
+			],
+			[
+				"current",
+				"currentHTTPStatus"
+			],
+			[
+				"abs",
+				"absoluteUri"
+			],
+			[
+				"local",
+				"localLinks"
+			],
+			[
+				"base",
+				"baseUrl〔variable〕"
+			],
+			[
+				"curre",
+				"currentResponse"
+			],
+			[
+				"fav",
+				"faviconFullPath〔variable〕"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"parag",
+				"paragraph1"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"car",
+				"carousel__pagination"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"sectio",
+				"section__carousel"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"title",
+				"titleImage"
+			],
+			[
+				"rem",
+				"remove_non_standard_css"
+			],
+			[
+				"thr",
+				"threshold-tablet"
+			],
+			[
+				"getEle",
+				"getElementByClass"
+			],
+			[
+				"track",
+				"trackingAction"
+			],
+			[
+				"flood",
+				"floodlightCat"
+			],
+			[
+				"tracking",
+				"trackingLabel"
+			],
+			[
+				"header",
+				"header-large-height"
+			],
+			[
+				"dark",
+				"dark_3"
+			],
+			[
+				"sche",
+				"scheme"
+			],
+			[
+				"sch",
+				"schemes"
+			],
+			[
+				"Event",
+				"EventType"
+			],
+			[
+				"drop",
+				"dropdownClose_"
+			],
+			[
+				"calend",
+				"calendarBtn_"
+			],
+			[
+				"calendar",
+				"calendarOptions_"
+			],
+			[
+				"init",
+				"initDropdown_  (function)"
+			],
+			[
+				"height",
+				"height_"
+			],
+			[
+				"get",
+				"getElementByClass"
+			],
+			[
+				"CA",
+				"CALENDAR_OPTIONS  (variable)"
+			],
+			[
+				"social",
+				"social-twitter"
+			],
+			[
+				"icon-g",
+				"icon-google"
+			],
+			[
+				"play-t",
+				"play-game-padding-vert"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"MOUSE_",
+				"MOUSE_OUT"
+			],
+			[
+				"MOUS",
+				"MOUSE_OVER"
+			],
+			[
+				"the",
+				"thetaB"
+			],
+			[
+				"theta",
+				"thetaA"
+			],
+			[
+				"segment",
+				"segmentAngle"
+			],
+			[
+				"segm",
+				"segmentAngle"
+			],
+			[
+				"bo",
+				"boxmaster"
+			],
+			[
+				"INC",
+				"INCREMENT_SCORE"
+			],
+			[
+				"incr",
+				"incrementScore"
+			],
+			[
+				"score",
+				"scoreCount"
+			],
+			[
+				"onUpD",
+				"onUpdateParams"
+			],
+			[
+				"hit",
+				"hitObjs"
+			],
+			[
+				"hitO",
+				"hitTestObject"
+			],
+			[
+				"weight",
+				"weightMultiplier"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"delay",
+				"delayCounter"
+			],
+			[
+				"dela",
+				"delayCounter"
+			],
+			[
+				"boxfla",
+				"boxflapLeft"
+			],
+			[
+				"boxFla",
+				"boxflapLeft"
+			],
+			[
+				"produ",
+				"products"
+			],
+			[
+				"product",
+				"productHalfWidth"
+			],
+			[
+				"produc",
+				"productHalfWidth"
+			],
+			[
+				"global",
+				"globalProductX"
+			],
+			[
+				"is",
+				"isSpinning"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"Twee",
+				"TweenLite"
+			],
+			[
+				"timer",
+				"timerCount"
+			],
+			[
+				"even",
+				"Event"
+			],
+			[
+				"Short",
+				"ShortRotationPlugin"
+			],
+			[
+				"last",
+				"lastRotation"
+			],
+			[
+				"normal",
+				"normalized"
+			],
+			[
+				"curr",
+				"currentLandingPosition"
+			],
+			[
+				"Timer",
+				"TimerEvent"
+			],
+			[
+				"landing",
+				"landingValue"
+			],
+			[
+				"break",
+				"breakpoint"
+			],
+			[
+				"videoG",
+				"videoWidth-xLarge"
+			],
+			[
+				"video",
+				"videoProportions"
+			],
+			[
+				"videoGridWid",
+				"videoGridWidth-xLarge"
+			],
+			[
+				"gbgSt_sprite--thumb",
+				"gbgSt__sprite--thumbs-down"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-analytics/tc-google-analytics-behavior.html",
+			"settings":
+			{
+				"buffer_size": 2032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-analytics/index.html",
+			"settings":
+			{
+				"buffer_size": 424,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "html",
+		"selected_items":
+		[
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"beau",
+				"HTMLBeautify"
+			],
+			[
+				"hint",
+				"JSHint"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"f",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"forma",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as HTML Syntax"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sy javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-analytics",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-localize-behavior/test",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/test"
+	],
+	"file_history":
+	[
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-localize-behavior/README.md",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/tc-paragraphs.html",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/README.md",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/.gitignore",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-localize-behavior/test/tc-localize-behavior_test.html",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/test/tc-paragraphs_test.html",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/demo/index.html",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/test/test/test-element_test.html",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-localize-behavior/LICENSE",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/test/index.html",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-paragraphs/LICENSE",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-api-parser-behavior/README.md",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-localize-behavior/.gitignore",
+		"/Users/wdonohoe/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-localize-behavior/bower.json",
+		"/Users/wdonohoe/Desktop/icons/kakao-talk.svg",
+		"/Users/wdonohoe/Downloads/BodyMovin/4/demo.html",
+		"/Users/wdonohoe/Desktop/test.html",
+		"/Users/wdonohoe/Sites/GOOGLE/3c/app/images/google-dark.svg",
+		"/Users/wdonohoe/Sites/GOOGLE/brand-hacks/brand-hack-fitne/appengine-src/app.yaml",
+		"/Users/wdonohoe/Sites/TOASTER/articles/intro-to-polymer/example-app/elements/example-element/example-app.html",
+		"/Users/wdonohoe/Sites/TOASTER/articles/intro-to-polymer/example-app/elements/example-text/example-text.html",
+		"/Users/wdonohoe/Sites/GOOGLE/trends-visualization-tool/website/src/css/material.min.css",
+		"/Users/wdonohoe/Sites/TOASTER/articles/intro-to-polymer/example-app/elements/example-app/example-app.html",
+		"/Users/wdonohoe/Sites/TOASTER/articles/intro-to-polymer/example-app/elements/elements.html",
+		"/Users/wdonohoe/Sites/TOASTER/articles/intro-to-polymer/example-app",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/face-pleased.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/face-ecstatic.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/face-content.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/face-escstatic.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/twitter.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/share.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/play.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/info.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/facebook.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/buy.svg",
+		"/Users/wdonohoe/Google Drive/S1132_GOSF_Singapore_2016/04 Working Files/DESIGN/Icons/Exports/gosf.svg",
+		"/Users/wdonohoe/Sites/GOOGLE/trends-visualization-tool/website/package.json",
+		"/Users/wdonohoe/Sites/TOASTER/polymer-scaffold/gulp/tasks/sass.js",
+		"/Users/wdonohoe/Sites/GOOGLE/trends-visualization-tool/website/src/img/google-trends-logo copy.svg",
+		"/Users/wdonohoe/Desktop/svg",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-gps/app/index.html",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-gps/dist/static/index.html",
+		"/Users/wdonohoe/Downloads/AcidJs.XEllipsis/index.html",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-taiwan-playtown/app/elements/toaster-utils/toaster-css-transform-helper.html",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-taiwan-playtown/app/elements/toaster-parallax-background/toaster-parallax-background.js",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-taiwan-playtown/app/elements/elements.html",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-taiwan-playtown/app/elements/toaster-featured-games-carousel-host/toaster-featured-games-carousel-host.js",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-taiwan-playtown/app/elements/toaster-featured-games-carousel-host/toaster-featured-games-carousel-host.html",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/base/_type.scss",
+		"/Users/wdonohoe/Sites/TOASTER/test/config.js",
+		"/Users/wdonohoe/Sites/TOASTER/test/common-config.js",
+		"/Users/wdonohoe/Sites/TOASTER/test2/Gulpfile.js",
+		"/Users/wdonohoe/Sites/TOASTER/test2/gulp/utils/requires.js",
+		"/Users/wdonohoe/Sites/TOASTER/test2/config.js",
+		"/Users/wdonohoe/Sites/TOASTER/gorotest/config.js",
+		"/Users/wdonohoe/Sites/TOASTER/poly-scaffold-marco/app/index.html",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/appengine/index.js",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/common/index.js",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/app/index.js",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/common/templates/app/static/index.html",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/package.json",
+		"/Users/wdonohoe/Sites/TOASTER/generator-test-scaffold/generators/app/index.js",
+		"/Users/wdonohoe/Sites/TOASTER/gorotest/.gitignore",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/common/templates/package.json",
+		"/Users/wdonohoe/Sites/TOASTER/test2/static/index.html",
+		"/Users/wdonohoe/Sites/TOASTER/poly-scaffold-marco/README.md",
+		"/Users/wdonohoe/Sites/TOASTER/poly-scaffold-marco/package.json",
+		"/Users/wdonohoe/Sites/TOASTER/poly-scaffold-marco/LICENSE.md",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/common/templates/gulpfile.js",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/common/templates/bower.json",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/common/templates/gitignore",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/goro/index.js",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/toro/index.js",
+		"/Users/wdonohoe/Sites/TOASTER/generator-toaster-scaffold/generators/email/index.js",
+		"/Users/wdonohoe/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/wdonohoe/Sites/TOASTER/toaster-generator/generators/app/templates/appengine/gulp/tasks/sass.js",
+		"/Users/wdonohoe/Sites/TOASTER/test/src/sass/critical.scss",
+		"/Users/wdonohoe/Sites/TOASTER/toaster-generator/generators/app/templates/appengine/gulp/tasks/build.js",
+		"/Users/wdonohoe/Sites/WILL/dad/static/biography.html",
+		"/Users/wdonohoe/Sites/WILL/dad/static/web.config",
+		"/Users/wdonohoe/Sites/WILL/dad/static/includes/header.inc.php",
+		"/Users/wdonohoe/Sites/WILL/dad/static/includes/details.inc.php",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/modules/_nav.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/base/_defaults.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/base/_colors.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/modules/_details.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/critical.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/layout/_grid.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/js/app.js",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/non-critical.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/modules/_home.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/static/includes/footer.inc.php",
+		"/Users/wdonohoe/Sites/WILL/dad/src/sass/base/_vars.scss",
+		"/Users/wdonohoe/Sites/WILL/dad/phpinfo.php",
+		"/Users/wdonohoe/Sites/WILL/dad/index.php",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-cultural-institute/grunt/config-example.json",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-cultural-institute/grunt/config.json",
+		"/Users/wdonohoe/Sites/TOASTER/toaster-generator/generators/app/templates/gulp/tasks/scss-linter.js",
+		"/Users/wdonohoe/Sites/TOASTER/test/gulp/utils/requires.js",
+		"/Users/wdonohoe/Sites/TOASTER/toaster-sass-scaffold/bower.json",
+		"/Users/wdonohoe/Sites/TOASTER/test/src/sass/base/_vendor.scss",
+		"/Users/wdonohoe/Sites/TOASTER/test/src/sass/base/_jacket.scss",
+		"/Users/wdonohoe/Sites/TOASTER/test/src/sass/README.md",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/products/gmail_flat.svg",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/exported/icon_product-gmail-flat.svg",
+		"/Users/wdonohoe/Downloads/clmtrackr-dev/README.md",
+		"/Users/wdonohoe/Sites/WILL/char/out/static/data/work.json",
+		"/Users/wdonohoe/Downloads/clmtrackr-dev/examples/face_mask.html",
+		"/Users/wdonohoe/Desktop/getStyles.js",
+		"/Users/wdonohoe/Sites/GOOGLE/emails/youtube-marketing-email/src/index.html",
+		"/Users/wdonohoe/Sites/GOOGLE/emails/youtube-marketing-email/src/sass/main.scss",
+		"/Users/wdonohoe/Downloads/index.html",
+		"/Users/wdonohoe/Desktop/google closure frequently used commands",
+		"/Users/wdonohoe/Downloads/nexusin_n6learnmore_alu_en_480x320_statichtml/index.html",
+		"/Users/wdonohoe/Downloads/nexusin_n6learnmore_alu_en_320x480_statichtml/index.html",
+		"/Users/wdonohoe/Downloads/nexusin_n6learnmore_alu_cam_en_480x320_statichtml (1)/index.html",
+		"/Users/wdonohoe/Downloads/nexusin_n6learnmore_alu_marsh_en_320x480_statichtml/index.html",
+		"/Users/wdonohoe/Downloads/nexusin_n6learnmore_alu_marsh_en_480x320_statichtml/index.html",
+		"/Users/wdonohoe/Downloads/nexusin_n6learnmore_alu_cam_en_320x480_statichtml/index.html",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-attack-map/app/svg-sprite/filter-bar/map-flat.svg",
+		"/Users/wdonohoe/Sites/GOOGLE/toaster-attack-map/app/svg-sprite/filter-bar/map-3d.svg",
+		"/Users/wdonohoe/Google Drive/Attack Map AE/DELIVERY/loadJson.jsx",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/exported/icon_product-gplus.svg",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/exported/icon_product-photos-flat.svg",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/exported/icon_product-drive-flat.svg",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/exported/icon_product-docs-flat.svg",
+		"/Users/wdonohoe/Google Drive/Attack-Map-Artwork/-Assets/icons/product-drive.svg"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/wdonohoe/Sites/GOOGLE/toaster-taiwan-playtown/app/elements",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"ToasterBehaviors",
+			"console",
+			"tc-api-parser-behavior_test",
+			"p>",
+			"p",
+			"split",
+			"classNames",
+			"template",
+			"paragraphsTemplate",
+			"_computeParagraphs",
+			"paragraphsTemplate",
+			"paragraph",
+			"span",
+			"loadResourcesFromGae",
+			"example",
+			"browser",
+			"parse",
+			"tc-api-parser-behavior",
+			"\">\n",
+			"iron-ajax",
+			"\">\n",
+			"polymer",
+			"x-parse",
+			"\">\n",
+			"firefox",
+			"x-translate",
+			"\\\"",
+			"tc-api-parser-behavior",
+			"\"",
+			"app",
+			"data.js",
+			"gpsNavMobile",
+			"mobileNav",
+			"headerBreakpoint",
+			"app.min",
+			"js",
+			"var",
+			"app",
+			"elements",
+			"<",
+			"example-app",
+			"example-element",
+			"gosf-swipe-card",
+			"gosf-swipe-cards",
+			"/new_site/",
+			"img/",
+			"data:image/png;base64",
+			"data:image/png",
+			"data:image/png;base64",
+			"data:image/png",
+			"$this->category->works[$this->work->index + 1]",
+			"box-tree-catapillar",
+			"Earthworms",
+			"earthworms",
+			"Pike",
+			"pike",
+			"img/work/smaller-insets/",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"bouillon",
+			"insets2",
+			"Insets",
+			"insets2",
+			"Insets",
+			"insets2",
+			"img/work/ad-design/",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"insets2",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines",
+			"Sardines",
+			"sardines"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"GOSF.app.Application"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-analytics/tc-google-analytics-behavior.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1193,
+								1193
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1603,
+										1604
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1156,
+										1157
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/wdonohoe/Sites/TOASTER/polymer-elements/tc-analytics/index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/angle_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tc-paragraphs.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
